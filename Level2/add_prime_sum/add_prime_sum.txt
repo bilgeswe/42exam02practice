@@ -1,0 +1,22 @@
+Assignment name  : add_prime_sum
+Expected files   : add_prime_sum.c
+Allowed functions: write, exit
+--------------------------------------------------------------------------------
+
+Write a program that takes a positive integer as argument and displays the sum
+of all prime numbers inferior or equal to it followed by a newline.
+
+If the number of arguments is not 1, or the argument is not a positive number,
+just display 0 followed by a newline.
+
+Yes, the examples are right.
+
+Examples:
+
+$>./add_prime_sum 5 //2,3,5 -> 5> 0,1 skip, 5/2 + 1 = 3'e kadar -> 2 ve 3 e bak -> 2%2 & 3%2 ve ya 3%3 == 0 than is prime. add it to the sum.
+10
+$>./add_prime_sum 7 | cat -e //2,3,5,7
+17$
+$>./add_prime_sum | cat -e
+0$
+$>
